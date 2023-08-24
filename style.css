@@ -7,6 +7,8 @@ body {
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
 
+/* Top */
+
 nav {
     display: flex;
     justify-content:space-between;
@@ -19,4 +21,30 @@ nav {
     text-decoration: none;
     color: white;
     background-color: #696c6e;
+}
+
+/* Main */
+
+.recently_listened {
+    padding: 0 2.5em;
+}
+
+.album__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.album {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.album img {
+    height: 50%;
+    width: 50%;
 }
