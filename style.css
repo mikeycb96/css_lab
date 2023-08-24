@@ -1,6 +1,10 @@
 html, body {
     margin: 0;
     padding: 0;
+} 
+
+h2 {
+    margin: 0;
 }
 
 body {
@@ -21,6 +25,11 @@ nav {
     text-decoration: none;
     color: white;
     background-color: #696c6e;
+}
+
+#main-nav a:hover {
+    color:black;
+    background-color: azure;
 }
 
 /* Main */
@@ -47,4 +56,27 @@ nav {
 .album img {
     height: 50%;
     width: 50%;
+}
+
+.media {
+    padding: 0 2.5em;
+}
+
+.media__container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.media_item img {
+    max-width: 240px;
+    max-height: 240px;
+    object-fit: cover;
+}
+
+section {
+    background-color: #696c6e;
+    color: azure;
 }
